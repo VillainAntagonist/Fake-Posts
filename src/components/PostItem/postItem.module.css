@@ -1,0 +1,18 @@
+.itemsWrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    margin: 1%;
+    border: 1px solid black;
+    background: aliceblue;
+}
+
+.itemsTitle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h4, h5 {
+    padding: 0.5em;
+}

@@ -9,14 +9,19 @@
 }
 
 .modalWindowContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 25px;
-    background: white;
+    background: aliceblue;
     border-radius: 16px;
     min-width: 250px;
 }
+
 
 .modalWindow.active {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
